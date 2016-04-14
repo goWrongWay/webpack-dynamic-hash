@@ -1,0 +1,21 @@
+{
+  "name": "webpack-dynamic-hash",
+  "version": "1.0.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "hash",
+    "hash"
+  ],
+  "author": {
+    "name": "linma5"
+  },
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "_id": "webpack-dynamic-hash@1.0.0",
+  "_shasum": "5b1141add5d22b8ef3823c2851a80c232d9c2c53",
+  "_from": "webpack-dynamic-hash@*"
+}

@@ -1,0 +1,11 @@
+node_modules/*
+build/*
+build/js/*
+build/img/*
+build/css/*
+.idea/*
+.DS_Store
+*.iml
+testReport/*
+testData/*
+.gitignore
