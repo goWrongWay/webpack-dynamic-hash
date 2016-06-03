@@ -63,9 +63,9 @@ WebpackDynamicHash.prototype.apply = function(compiler) {
                 //read init.js
                 var text = fs.readFileSync(path.join(__dirname, init), 'utf8');
                 // .js'$
-                var out = text.replace(/(lib-)(.*)(\.js)/g, "lib" + libHash + ".js");
-                out = out.replace(/(app-)(.*)(\.js)/g, "app" + appHash + ".js");
-                out = out.replace(/(app-)(.*)(\.c)/g, "app" + cssHash + ".c");
+                var out = text.replace(/(lib-)([^-]*)(\.js)/, "lib" + libHash + ".js");
+                out = out.replace(/(app-)([^-]*)(\.js)/, "app" + appHash + ".js");
+                out = out.replace(/(app-)([^-]*)(\.css)/, "app" + cssHash + ".css");
                 fs.writeFileSync(path.join(__dirname, init), out);
             };
 
